@@ -13,8 +13,8 @@ body {
 .wrapper {
     width: 100vw;
     height: 100vh;
-    background-color: black;
-    color: red;
+    background-color: slategrey;
+    color: aqua;
 }
 
 .navbar {
@@ -54,6 +54,36 @@ color:aquamarine;
 
 .menu a:hover {
     background-color:#fff;
-    color: black;
+    color: gray;
     transition: ease-in .5s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
+}
+
+.img {
+
+    width: 250px;
+    height: 350px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+span{
+    color: orange;
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
 }
