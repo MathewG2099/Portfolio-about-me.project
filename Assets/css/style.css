@@ -55,4 +55,5 @@ color:aquamarine;
 .menu a:hover {
     background-color:#fff;
     color: black;
+    transition: ease-in .5s;
 }
