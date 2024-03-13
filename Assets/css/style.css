@@ -70,8 +70,9 @@ color:aquamarine;
 
 .img {
 
-    width: 250px;
-    height: 350px;
+    width: 400px;
+    height: 550px;
+    border: 7px solid black;
 }
 
 h1 {
@@ -86,4 +87,13 @@ span{
     padding: 10px 20px;
     background-color: orange;
     border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 2px 3px 12px -5px rgba(102, 231,200,.69);
+}
+
+.download-cv:hover {
+    background-color: #fff;
+    box-shadow: none; 
 }
