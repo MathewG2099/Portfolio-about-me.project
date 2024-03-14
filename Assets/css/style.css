@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: rgb(27, 33, 39);
-    color: aqua;
+    color: #fff;
 }
 
 .navbar {
@@ -118,4 +118,17 @@ span{
 
 .about-info h2 {
     font-size: 2em;
+    color: rgb(27, 33, 39);
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 3em;
+}
+
+.about p {
+    margin-bottom: 1em;
 }
