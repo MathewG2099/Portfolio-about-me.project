@@ -151,9 +151,11 @@ span{
     justify-content: center;
 }
 .card {
-    width: 300px;
+    width: 500px;
     height: 350px;
     background-color:  rgb(27, 33, 39);
+    border: 10px solid #fff;
+    margin: 1em;
 }
 .card__image {
     width: 100%;
