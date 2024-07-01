@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
-
+/* Begining of CSS document for MATHEW PORTFOLIO*/
 * {
     margin: 0%;
     padding: 0%;
@@ -17,7 +16,7 @@ body {
     background-color: rgb(27, 33, 39);
     color: #fff;
 }
-
+/* Contact Menu nav bar for about, resume and contact */
 .navbar {
     display: flex;
     justify-content: space- space-between;
@@ -68,7 +67,7 @@ color:aquamarine;
     align-items: center;
 
 }
-
+/* Portfolio headshot of MATHEW THOMAS*/
 .img {
 
     width: 400px;
@@ -83,7 +82,7 @@ h1 {
 span{
     color: orange;
 }
-
+/*Download design button*/
 .download-cv {
     padding: 10px 20px;
     background-color: orange;
